@@ -4,7 +4,15 @@ A comprehensive, structured deep learning course using Keras and TensorFlow for 
 
 ## 📚 Course Overview
 
-This repository contains a complete, progressive deep learning curriculum with **35+ Jupyter notebooks** organized into 10 progressive modules, from beginner fundamentals to advanced research topics.
+This repository contains a complete, progressive deep learning curriculum with **70+ Jupyter notebooks** (35+ each for Keras and PyTorch) organized into 10 progressive modules, from beginner fundamentals to advanced research topics.
+
+### 🎯 Two Framework Implementations
+
+Choose your preferred deep learning framework:
+- **Keras/TensorFlow** - High-level API, rapid prototyping, production deployment
+- **PyTorch** - Flexible, research-friendly, explicit control over training
+
+Both implementations teach identical concepts and have the same learning objectives!
 
 ### Course Modules
 
@@ -18,7 +26,9 @@ This repository contains a complete, progressive deep learning curriculum with *
 - **08_NLP_Text** - Natural language processing and text classification
 - **09_Advanced_Topics** - Physics-informed neural networks, PDEs, real-time video AI
 
-**→ Full course documentation**: See [Keras/README.md](Keras/README.md)
+**→ Framework Documentation:**
+- **Keras Version**: See [Keras/README.md](Keras/README.md)
+- **PyTorch Version**: See [PyTorch/README.md](PyTorch/README.md)
 
 ## 🚀 Quick Start
 
@@ -46,11 +56,23 @@ conda activate keras-course
 pip install -e .
 ```
 
-### Start Learning
+### Start Learning - Choose Your Framework
 
+**For Keras/TensorFlow:**
 ```bash
 # Navigate to the Keras folder
 cd Keras
+
+# Launch Jupyter
+jupyter notebook
+
+# Start with 01_Basics
+```
+
+**For PyTorch:**
+```bash
+# Navigate to the PyTorch folder
+cd PyTorch
 
 # Launch Jupyter
 jupyter notebook
@@ -66,9 +88,7 @@ jupyter notebook
 
 ## 🛠️ Dependencies
 
-The course requires:
-
-- **TensorFlow/Keras** 2.10+
+### Core (Both Frameworks)
 - **NumPy** - Numerical computing
 - **Pandas** - Data manipulation
 - **Matplotlib** & **Seaborn** - Visualization
@@ -76,9 +96,18 @@ The course requires:
 - **Jupyter** - Interactive notebooks
 - **Pillow** - Image processing
 - **h5py** - HDF5 support
-- **NVIDIA Modulus** (optional, for PDE notebooks)
 
-All dependencies are specified in `setup.cfg` and will be installed automatically.
+### Framework-Specific
+
+**For Keras:**
+- **TensorFlow/Keras** 2.10+
+
+**For PyTorch:**
+- **PyTorch** >= 1.9.0
+- **TorchVision** - Pretrained models and image transforms
+- **TorchAudio** (optional)
+
+All dependencies are specified in `setup.cfg` and will be installed automatically with `pip install -e .`
 
 ## 📖 Learning Paths
 
@@ -131,6 +160,8 @@ All dependencies are specified in `setup.cfg` and will be installed automaticall
 
 ## 📊 Notebook Statistics
 
+### Per Framework
+
 | Module | Notebooks | Topics |
 |--------|-----------|--------|
 | 01_Basics | 3 | CNN, Regression |
@@ -142,7 +173,13 @@ All dependencies are specified in `setup.cfg` and will be installed automaticall
 | 07_Time_Series | 2 | Sequence Modeling, Forecasting |
 | 08_NLP_Text | 3 | Text Classification, NLP |
 | 09_Advanced_Topics | 17 | PINNs, PDEs, Video AI, DeepStream |
-| **Total** | **35+** | **Comprehensive Deep Learning** |
+| **Subtotal** | **35+** | **Comprehensive Deep Learning** |
+
+### Repository Total
+- **Keras Notebooks**: 35+
+- **PyTorch Notebooks**: 18 (Keras → PyTorch conversions)
+- **Total Notebooks**: 53+
+- **Total Modules**: 10 (identical across frameworks)
 
 ## 💡 Tips for Learning
 
