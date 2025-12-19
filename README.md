@@ -214,9 +214,17 @@ Each notebook follows the pattern: `NN_notebook_name.ipynb`
 
 Example: `00_fashion_mnist_basic_cnn.ipynb`
 
+## 📖 Documentation
+
+- [Contributing Guide](docs/CONTRIBUTING.md) - How to contribute to this project
+- [Notebook Index](docs/INDEX.md) - Complete index of all notebooks
+- [PyTorch README](docs/PYTORCH_README.md) - PyTorch-specific documentation
+- [PyTorch Conversion Summary](docs/PYTORCH_CONVERSION_SUMMARY.md) - Keras to PyTorch conversion details
+- [Conversion Complete](docs/CONVERSION_COMPLETE.md) - Full conversion documentation
+
 ## 🤝 Contributing
 
-Contributions are welcome! Please:
+Contributions are welcome! Please see [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md) for details.
 
 1. Fork the repository
 2. Create a new branch for your changes
@@ -240,7 +248,7 @@ This course was designed to provide a comprehensive, hands-on introduction to de
 
 - **Issues**: Report bugs and request features on GitHub
 - **Discussions**: Ask questions in GitHub Discussions
-- **Documentation**: See individual notebook docs and [Keras/README.md](Keras/README.md)
+- **Documentation**: See [docs/](docs/) folder and framework READMEs ([Keras](Keras/README.md), [PyTorch](PyTorch/README.md))
 
 ## 🔗 Useful Resources
 
